@@ -1,7 +1,7 @@
 # DInj-IoC-IoC-Container
 Dependency Injection and Inversion of Control are not DIP Implementations
 
-**Inversion of Control** 
+**Inversion of Control** - the concept behind DI
 
   - Is a principle in software engineering by which the control of objects or portions of a program is transferred to a container or framework. It’s most often used in the context of object-oriented programming.
 
@@ -12,9 +12,14 @@ Dependency Injection and Inversion of Control are not DIP Implementations
 
   - Inversion of Control can be achieved through various mechanisms such as: Strategy design pattern, Service Locator pattern, Factory pattern, and Dependency Injection (DI).
   
-**Dependency Injection (DI)** is a pattern through which to implement IoC, where the control being inverted is the setting of object’s dependencies.
+**Dependency Injection (DI)** is a pattern through which to implement IoC, where the control being inverted is the setting of object’s dependencies. Benefits of using DI:
 
-Injection types:
+  - Helps in Unit testing.
+  - Boiler plate code is reduced, as initializing of dependencies is done by the injector component.
+  - Extending the application becomes easier.
+  - Helps to enable loose coupling, which is important in application programming.
+  
+  Injection types:
 
   - Field Injection
   
